@@ -1,0 +1,14 @@
+*.*
+!*.scss
+!*.css
+!*.less
+!*.js
+!*.jsx
+!*.json
+!*.md
+!*.ts
+!*.tsx
+!*.yml
+
+/build
+/node_modules

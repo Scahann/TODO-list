@@ -1,0 +1,10 @@
+# Ignore generated
+/dist
+
+# Ignore webpack configs
+webpack*
+
+# node_modules are ignored by default, no need to specify them here
+node_modules
+
+

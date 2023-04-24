@@ -1,0 +1,50 @@
+@import "../../variables.less";
+
+.task {
+  border-radius: @border-radius;
+  border: @border;
+  cursor: pointer;
+  &:hover {
+    border-color: @primary-color;
+  }
+  .header {
+    padding: @padding-md;
+    border-bottom: @border;
+    display: flex;
+
+    align-items: center;
+    gap: @padding-md;
+    font-size: @font-size-xl;
+  }
+  .info {
+    padding: 0 @padding-md;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.executor {
+  color: @text-color-secondary;
+}
+
+.priority {
+  width: @font-size-base;
+  height: @font-size-base;
+  border-radius: calc(@font-size-base / 2);
+}
+
+.low {
+  background-color: @success-color;
+}
+
+.medium {
+  background-color: @warning-color;
+}
+
+.high {
+  background-color: @error-color;
+}
+
+.info {
+  margin: @margin-md 0;
+}
